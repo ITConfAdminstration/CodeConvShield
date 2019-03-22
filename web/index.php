@@ -35,7 +35,7 @@ $app->post('/', function() use($app) {
 		return getenv('VK_CONFIRMATION_CODE');
 		break;
 		
-		case 'messages_new':
+		case 'message_new':
 		
 		
 		
