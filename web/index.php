@@ -32,7 +32,7 @@ $app->post('/bot', function() use($app) {
 	{
 		
 		case 'confirmation':
-		return getenv('VK_SECRET_TOKEN');
+		return getenv('VK_CONFIRMATION_CODE');
 		break;
 		
 		case 'messages_new':
