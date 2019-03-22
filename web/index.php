@@ -18,7 +18,7 @@ $app->get('/', function() use($app) {
 	
 });
 
-$app->post('/bot', function() use($app) {
+$app->post('/', function() use($app) {
 	$data = json_decode(file_get_contents('php://input'));
 	
 	if(!$data)
